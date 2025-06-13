@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
